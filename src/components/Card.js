@@ -17,6 +17,7 @@ const Card = () => {
 
   return (
     <div style={{ border: "1px solid #ccc", padding: "10px", borderRadius: "8px", maxWidth: "300px", background: "#f9f9f9" }}>
+        <div>Hello how are you?</div>
       <h3>{data.title}</h3>
       <p>{data.body}</p>
     </div>
